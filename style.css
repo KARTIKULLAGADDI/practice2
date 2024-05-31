@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/**background-image**/
+.main{
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url('1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 109vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    display: flex;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: 25px;
+}
+
+ul>li a{
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-family: arial;
+    margin-left: 45px;
+}
+/**royal text**/
+.royal{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: orange;
+    margin-left: 85px;
+    align-items: center;
+}
+ul>li a:hover{
+    background-color: white;
+    color: black;
+    padding: 15px 20px;
+}
+/*search bar*/
+.main-search{
+    align-items: center;
+    background-color: orange;
+    margin-left: 55px;
+    height: 40px;
+    width: 300px;
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid orange;
+    background-color: transparent;
+}
+.search{
+    border-style: none;
+    width: 80%;
+    height: 98%;
+    color: white;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: transparent;
+}
+
+.button{
+    height: 98%;
+    width: 20%;
+    border: none;
+    cursor: pointer;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+button:hover{
+    background-color: rgb(226, 213, 190);
+}
+
+/*contents of the page */
+.content{
+    margin-top: 120px;
+    margin-left: 90px;
+    position: relative;
+}
+.design{
+    color: white;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.dev{
+    color: orange;
+}
+.text{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+.join{
+    background-color: orange;
+    height: 50px;
+    width: 90px;
+    color:black;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.join:hover{
+    background-color: brown;
+    color: white;
+}
+/*Box contents*/
+.box{
+    background-color: #330404;
+    height: 400px;
+    width: 300px;
+    top: -20px;
+    left: 870px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    color: white;
+    line-height: 50px;
+    border-radius: 5px;
+}
+/*heading*/
+.h{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orange;
+    margin-top: 20px;
+}
+.log{
+    height: 40px;
+    width: 220px;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    color: white;
+}
+.sub{
+    height: 35px;
+    width:80px;
+    background-color: orange;
+    display: flex;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+/*anchor*/
+.anchor{
+    display: flex;
+    margin-top: 20px;
+}
+.i1{
+    font-size: 2rem;
+    margin-left: 10px;
+    padding: 14px;
+}
